@@ -7,7 +7,6 @@ import util
 
 KEY = "9c9c48f9ab5717ed899e8b6d730883c6"
 
-
 def get_data():
     try:
         with urllib.request.urlopen("http://ipinfo.io/json") as url:
