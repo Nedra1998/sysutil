@@ -37,7 +37,7 @@ def main():
         "mute": str(mute),
         "bar": util.get_bar(volume),
         "icon": get_icon(volume, mute)
-    }, sys.argv[1] if len(sys.argv) > 1 else "{icon} {percent}%{bar}")
+    }, sys.argv[1] if len(sys.argv) > 1 else "{icon} {percent}% {bar}")
 
 
 if __name__ == "__main__":
